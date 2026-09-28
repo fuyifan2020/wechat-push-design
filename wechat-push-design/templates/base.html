@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>推送标题</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #FAF8F5;
+    color: #1A1A1A;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.9;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { padding: 0 32px; }
+  img { max-width: 100%; }
+
+  /* ===== 设计语言变量（按确认的方案替换） =====
+     主色:   #XXXXXX
+     辅色:   #XXXXXX
+     强调色: #XXXXXX
+  ============================================ */
+</style>
+</head>
+<body>
+
+  <!-- 首屏：视觉钩子（大标题 + 氛围图/色块） -->
+  <section class="container" style="padding-top: 96px; padding-bottom: 80px;">
+    <span style="font-size: 20px; letter-spacing: 6px; text-transform: uppercase; opacity: .5;">EYEBROW LABEL</span>
+    <h1 style="font-size: 56px; font-weight: 800; line-height: 1.3; letter-spacing: 4px; margin-top: 24px;">主标题</h1>
+    <p style="margin-top: 32px; opacity: .7;">引言副文案，一到两句话概括全文价值。</p>
+  </section>
+
+  <!-- 正文段落示例 -->
+  <section class="container" style="padding-bottom: 100px;">
+    <span style="font-family: Georgia, serif; font-size: 120px; font-weight: 700; opacity: .1; line-height: 1; display: block;">01</span>
+    <h2 style="font-size: 44px; font-weight: 700; letter-spacing: 2px; margin: 16px 0 32px;">章节标题</h2>
+    <p>正文内容。注意保持段落精炼，单段不超过 150 字。</p>
+  </section>
+
+  <!-- 图片段落示例 -->
+  <section class="container" style="padding-bottom: 100px;">
+    <img src="图片地址" alt="图片描述" style="width: 100%; display: block; border-radius: 20px; box-shadow: 0 8px 32px rgba(0,0,0,.08);">
+    <p style="font-size: 24px; opacity: .5; text-align: center; margin-top: 20px;">图片说明</p>
+  </section>
+
+  <!-- 结尾：行动号召 + 落款 -->
+  <section class="container" style="padding: 80px 32px 120px; text-align: center;">
+    <p style="font-size: 34px; font-weight: 600;">行动号召文案</p>
+    <p style="font-size: 24px; opacity: .5; margin-top: 48px; letter-spacing: 2px;">© 品牌名 · 出品</p>
+  </section>
+
+</body>
+</html>
